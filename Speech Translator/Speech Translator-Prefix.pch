@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Speech Translator' target in the 'Speech Translator' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

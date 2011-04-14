@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAEABE2313570C2E0027D0D7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAEABE2213570C2E0027D0D7 /* Cocoa.framework */; };
+		DAEABE2D13570C2E0027D0D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAEABE2B13570C2E0027D0D7 /* InfoPlist.strings */; };
+		DAEABE3013570C2E0027D0D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEABE2F13570C2E0027D0D7 /* main.m */; };
+		DAEABE3313570C2E0027D0D7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DAEABE3113570C2E0027D0D7 /* Credits.rtf */; };
+		DAEABE3613570C2E0027D0D7 /* Speech_TranslatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEABE3513570C2E0027D0D7 /* Speech_TranslatorAppDelegate.m */; };
+		DAEABE3913570C2E0027D0D7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAEABE3713570C2E0027D0D7 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DAEABE1E13570C2E0027D0D7 /* Speech Translator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Speech Translator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAEABE2213570C2E0027D0D7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DAEABE2513570C2E0027D0D7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DAEABE2613570C2E0027D0D7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DAEABE2713570C2E0027D0D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DAEABE2A13570C2E0027D0D7 /* Speech Translator-Info.plist */ = {isa = PBXFileReference; path = "Speech Translator-Info.plist"; sourceTree = "<group>"; };
+		DAEABE2C13570C2E0027D0D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DAEABE2E13570C2E0027D0D7 /* Speech Translator-Prefix.pch */ = {isa = PBXFileReference; path = "Speech Translator-Prefix.pch"; sourceTree = "<group>"; };
+		DAEABE2F13570C2E0027D0D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAEABE3213570C2E0027D0D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DAEABE3413570C2E0027D0D7 /* Speech_TranslatorAppDelegate.h */ = {isa = PBXFileReference; path = Speech_TranslatorAppDelegate.h; sourceTree = "<group>"; };
+		DAEABE3513570C2E0027D0D7 /* Speech_TranslatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Speech_TranslatorAppDelegate.m; sourceTree = "<group>"; };
+		DAEABE3813570C2E0027D0D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAEABE1B13570C2E0027D0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAEABE2313570C2E0027D0D7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAEABE1313570C2E0027D0D7 = {
+			isa = PBXGroup;
+			children = (
+				DAEABE2813570C2E0027D0D7 /* Speech Translator */,
+				DAEABE2113570C2E0027D0D7 /* Frameworks */,
+				DAEABE1F13570C2E0027D0D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAEABE1F13570C2E0027D0D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAEABE1E13570C2E0027D0D7 /* Speech Translator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAEABE2113570C2E0027D0D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAEABE2213570C2E0027D0D7 /* Cocoa.framework */,
+				DAEABE2413570C2E0027D0D7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAEABE2413570C2E0027D0D7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAEABE2513570C2E0027D0D7 /* AppKit.framework */,
+				DAEABE2613570C2E0027D0D7 /* CoreData.framework */,
+				DAEABE2713570C2E0027D0D7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DAEABE2813570C2E0027D0D7 /* Speech Translator */ = {
+			isa = PBXGroup;
+			children = (
+				DAEABE3413570C2E0027D0D7 /* Speech_TranslatorAppDelegate.h */,
+				DAEABE3513570C2E0027D0D7 /* Speech_TranslatorAppDelegate.m */,
+				DAEABE3713570C2E0027D0D7 /* MainMenu.xib */,
+				DAEABE2913570C2E0027D0D7 /* Supporting Files */,
+			);
+			path = "Speech Translator";
+			sourceTree = "<group>";
+		};
+		DAEABE2913570C2E0027D0D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAEABE2A13570C2E0027D0D7 /* Speech Translator-Info.plist */,
+				DAEABE2B13570C2E0027D0D7 /* InfoPlist.strings */,
+				DAEABE2E13570C2E0027D0D7 /* Speech Translator-Prefix.pch */,
+				DAEABE2F13570C2E0027D0D7 /* main.m */,
+				DAEABE3113570C2E0027D0D7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAEABE1D13570C2E0027D0D7 /* Speech Translator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAEABE3C13570C2E0027D0D7 /* Build configuration list for PBXNativeTarget "Speech Translator" */;
+			buildPhases = (
+				DAEABE1A13570C2E0027D0D7 /* Sources */,
+				DAEABE1B13570C2E0027D0D7 /* Frameworks */,
+				DAEABE1C13570C2E0027D0D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Speech Translator";
+			productName = "Speech Translator";
+			productReference = DAEABE1E13570C2E0027D0D7 /* Speech Translator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAEABE1513570C2E0027D0D7 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DAEABE1813570C2E0027D0D7 /* Build configuration list for PBXProject "Speech Translator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DAEABE1313570C2E0027D0D7;
+			productRefGroup = DAEABE1F13570C2E0027D0D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAEABE1D13570C2E0027D0D7 /* Speech Translator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAEABE1C13570C2E0027D0D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAEABE2D13570C2E0027D0D7 /* InfoPlist.strings in Resources */,
+				DAEABE3313570C2E0027D0D7 /* Credits.rtf in Resources */,
+				DAEABE3913570C2E0027D0D7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAEABE1A13570C2E0027D0D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAEABE3013570C2E0027D0D7 /* main.m in Sources */,
+				DAEABE3613570C2E0027D0D7 /* Speech_TranslatorAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAEABE2B13570C2E0027D0D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAEABE2C13570C2E0027D0D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DAEABE3113570C2E0027D0D7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAEABE3213570C2E0027D0D7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DAEABE3713570C2E0027D0D7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAEABE3813570C2E0027D0D7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAEABE3A13570C2E0027D0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DAEABE3B13570C2E0027D0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DAEABE3D13570C2E0027D0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Speech Translator/Speech Translator-Prefix.pch";
+				INFOPLIST_FILE = "Speech Translator/Speech Translator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DAEABE3E13570C2E0027D0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Speech Translator/Speech Translator-Prefix.pch";
+				INFOPLIST_FILE = "Speech Translator/Speech Translator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAEABE1813570C2E0027D0D7 /* Build configuration list for PBXProject "Speech Translator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAEABE3A13570C2E0027D0D7 /* Debug */,
+				DAEABE3B13570C2E0027D0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAEABE3C13570C2E0027D0D7 /* Build configuration list for PBXNativeTarget "Speech Translator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAEABE3D13570C2E0027D0D7 /* Debug */,
+				DAEABE3E13570C2E0027D0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAEABE1513570C2E0027D0D7 /* Project object */;
+}
