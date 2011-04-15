@@ -3,7 +3,7 @@
 //  Speech Translator
 //
 //  Created by Yuri Yuriev on 14.04.11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Yuri Yuriev. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>

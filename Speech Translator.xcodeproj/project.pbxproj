@@ -7,28 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA1BD6091358294400F3EDB2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA1BD6081358294400F3EDB2 /* Localizable.strings */; };
+		DA1BD61F1358351300F3EDB2 /* GoogleASR.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1BD61E1358351300F3EDB2 /* GoogleASR.m */; };
+		DA1BD6251358355200F3EDB2 /* GoogleTranslate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1BD6241358355100F3EDB2 /* GoogleTranslate.m */; };
+		DA1BD6281358356200F3EDB2 /* MicrosoftTTS.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1BD6271358356200F3EDB2 /* MicrosoftTTS.m */; };
+		DA1BD6301358369E00F3EDB2 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1BD62D1358369E00F3EDB2 /* GTMNSString+HTML.m */; };
+		DA1BD6311358369E00F3EDB2 /* GDataHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1BD62F1358369E00F3EDB2 /* GDataHTTPFetcher.m */; };
+		DA1BD63F135836AB00F3EDB2 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1BD634135836AB00F3EDB2 /* NSObject+SBJSON.m */; };
+		DA1BD640135836AB00F3EDB2 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1BD636135836AB00F3EDB2 /* NSString+SBJSON.m */; };
+		DA1BD641135836AB00F3EDB2 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1BD638135836AB00F3EDB2 /* SBJSON.m */; };
+		DA1BD642135836AB00F3EDB2 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1BD63A135836AB00F3EDB2 /* SBJsonBase.m */; };
+		DA1BD643135836AB00F3EDB2 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1BD63C135836AB00F3EDB2 /* SBJsonParser.m */; };
+		DA1BD644135836AB00F3EDB2 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1BD63E135836AB00F3EDB2 /* SBJsonWriter.m */; };
+		DA1BD64C135852E300F3EDB2 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = DA1BD64B135852E300F3EDB2 /* icon.icns */; };
+		DA1BD64E135853ED00F3EDB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA1BD64D135853ED00F3EDB2 /* InfoPlist.strings */; };
+		DADA979B135737C3007E5F59 /* BGHUDAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADA979A135737C3007E5F59 /* BGHUDAppKit.framework */; };
+		DADA979E135738A3007E5F59 /* BGHUDAppKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = DADA979A135737C3007E5F59 /* BGHUDAppKit.framework */; };
 		DAEABE2313570C2E0027D0D7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAEABE2213570C2E0027D0D7 /* Cocoa.framework */; };
-		DAEABE2D13570C2E0027D0D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAEABE2B13570C2E0027D0D7 /* InfoPlist.strings */; };
 		DAEABE3013570C2E0027D0D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEABE2F13570C2E0027D0D7 /* main.m */; };
 		DAEABE3313570C2E0027D0D7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DAEABE3113570C2E0027D0D7 /* Credits.rtf */; };
 		DAEABE3613570C2E0027D0D7 /* Speech_TranslatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEABE3513570C2E0027D0D7 /* Speech_TranslatorAppDelegate.m */; };
 		DAEABE3913570C2E0027D0D7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAEABE3713570C2E0027D0D7 /* MainMenu.xib */; };
+		DAEABE4613570D490027D0D7 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAEABE4513570D490027D0D7 /* QTKit.framework */; };
+		DAEABE49135725250027D0D7 /* ffmpeg in Resources */ = {isa = PBXBuildFile; fileRef = DAEABE48135725250027D0D7 /* ffmpeg */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DADA979D1357385B007E5F59 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DADA979E135738A3007E5F59 /* BGHUDAppKit.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		DA1BD6081358294400F3EDB2 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		DA1BD61D1358351300F3EDB2 /* GoogleASR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleASR.h; sourceTree = "<group>"; };
+		DA1BD61E1358351300F3EDB2 /* GoogleASR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleASR.m; sourceTree = "<group>"; };
+		DA1BD6231358355100F3EDB2 /* GoogleTranslate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleTranslate.h; sourceTree = "<group>"; };
+		DA1BD6241358355100F3EDB2 /* GoogleTranslate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleTranslate.m; sourceTree = "<group>"; };
+		DA1BD6261358356200F3EDB2 /* MicrosoftTTS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicrosoftTTS.h; sourceTree = "<group>"; };
+		DA1BD6271358356200F3EDB2 /* MicrosoftTTS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicrosoftTTS.m; sourceTree = "<group>"; };
+		DA1BD62B1358369E00F3EDB2 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		DA1BD62C1358369E00F3EDB2 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		DA1BD62D1358369E00F3EDB2 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		DA1BD62E1358369E00F3EDB2 /* GDataHTTPFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataHTTPFetcher.h; sourceTree = "<group>"; };
+		DA1BD62F1358369E00F3EDB2 /* GDataHTTPFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataHTTPFetcher.m; sourceTree = "<group>"; };
+		DA1BD632135836AB00F3EDB2 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		DA1BD633135836AB00F3EDB2 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		DA1BD634135836AB00F3EDB2 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		DA1BD635135836AB00F3EDB2 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		DA1BD636135836AB00F3EDB2 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		DA1BD637135836AB00F3EDB2 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		DA1BD638135836AB00F3EDB2 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		DA1BD639135836AB00F3EDB2 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		DA1BD63A135836AB00F3EDB2 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		DA1BD63B135836AB00F3EDB2 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		DA1BD63C135836AB00F3EDB2 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		DA1BD63D135836AB00F3EDB2 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		DA1BD63E135836AB00F3EDB2 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		DA1BD64B135852E300F3EDB2 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		DA1BD64D135853ED00F3EDB2 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		DADA979A135737C3007E5F59 /* BGHUDAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BGHUDAppKit.framework; path = "Speech Translator/BGHUDAppKit.framework"; sourceTree = "<group>"; };
 		DAEABE1E13570C2E0027D0D7 /* Speech Translator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Speech Translator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAEABE2213570C2E0027D0D7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		DAEABE2513570C2E0027D0D7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		DAEABE2613570C2E0027D0D7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DAEABE2713570C2E0027D0D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		DAEABE2A13570C2E0027D0D7 /* Speech Translator-Info.plist */ = {isa = PBXFileReference; path = "Speech Translator-Info.plist"; sourceTree = "<group>"; };
-		DAEABE2C13570C2E0027D0D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DAEABE2E13570C2E0027D0D7 /* Speech Translator-Prefix.pch */ = {isa = PBXFileReference; path = "Speech Translator-Prefix.pch"; sourceTree = "<group>"; };
+		DAEABE2A13570C2E0027D0D7 /* Speech Translator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Speech Translator-Info.plist"; sourceTree = "<group>"; };
+		DAEABE2E13570C2E0027D0D7 /* Speech Translator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Speech Translator-Prefix.pch"; sourceTree = "<group>"; };
 		DAEABE2F13570C2E0027D0D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DAEABE3213570C2E0027D0D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		DAEABE3413570C2E0027D0D7 /* Speech_TranslatorAppDelegate.h */ = {isa = PBXFileReference; path = Speech_TranslatorAppDelegate.h; sourceTree = "<group>"; };
+		DAEABE3413570C2E0027D0D7 /* Speech_TranslatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Speech_TranslatorAppDelegate.h; sourceTree = "<group>"; };
 		DAEABE3513570C2E0027D0D7 /* Speech_TranslatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Speech_TranslatorAppDelegate.m; sourceTree = "<group>"; };
 		DAEABE3813570C2E0027D0D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DAEABE4513570D490027D0D7 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		DAEABE48135725250027D0D7 /* ffmpeg */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ffmpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DADA979B135737C3007E5F59 /* BGHUDAppKit.framework in Frameworks */,
+				DAEABE4613570D490027D0D7 /* QTKit.framework in Frameworks */,
 				DAEABE2313570C2E0027D0D7 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,6 +104,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA1BD6291358367F00F3EDB2 /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				DA1BD62B1358369E00F3EDB2 /* GTMDefines.h */,
+				DA1BD62C1358369E00F3EDB2 /* GTMNSString+HTML.h */,
+				DA1BD62D1358369E00F3EDB2 /* GTMNSString+HTML.m */,
+				DA1BD62E1358369E00F3EDB2 /* GDataHTTPFetcher.h */,
+				DA1BD62F1358369E00F3EDB2 /* GDataHTTPFetcher.m */,
+			);
+			name = Google;
+			sourceTree = "<group>";
+		};
+		DA1BD62A1358368C00F3EDB2 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				DA1BD632135836AB00F3EDB2 /* JSON.h */,
+				DA1BD633135836AB00F3EDB2 /* NSObject+SBJSON.h */,
+				DA1BD634135836AB00F3EDB2 /* NSObject+SBJSON.m */,
+				DA1BD635135836AB00F3EDB2 /* NSString+SBJSON.h */,
+				DA1BD636135836AB00F3EDB2 /* NSString+SBJSON.m */,
+				DA1BD637135836AB00F3EDB2 /* SBJSON.h */,
+				DA1BD638135836AB00F3EDB2 /* SBJSON.m */,
+				DA1BD639135836AB00F3EDB2 /* SBJsonBase.h */,
+				DA1BD63A135836AB00F3EDB2 /* SBJsonBase.m */,
+				DA1BD63B135836AB00F3EDB2 /* SBJsonParser.h */,
+				DA1BD63C135836AB00F3EDB2 /* SBJsonParser.m */,
+				DA1BD63D135836AB00F3EDB2 /* SBJsonWriter.h */,
+				DA1BD63E135836AB00F3EDB2 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
 		DAEABE1313570C2E0027D0D7 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +156,8 @@
 		DAEABE2113570C2E0027D0D7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DADA979A135737C3007E5F59 /* BGHUDAppKit.framework */,
+				DAEABE4513570D490027D0D7 /* QTKit.framework */,
 				DAEABE2213570C2E0027D0D7 /* Cocoa.framework */,
 				DAEABE2413570C2E0027D0D7 /* Other Frameworks */,
 			);
@@ -82,8 +177,16 @@
 		DAEABE2813570C2E0027D0D7 /* Speech Translator */ = {
 			isa = PBXGroup;
 			children = (
+				DA1BD62A1358368C00F3EDB2 /* JSON */,
+				DA1BD6291358367F00F3EDB2 /* Google */,
 				DAEABE3413570C2E0027D0D7 /* Speech_TranslatorAppDelegate.h */,
 				DAEABE3513570C2E0027D0D7 /* Speech_TranslatorAppDelegate.m */,
+				DA1BD61D1358351300F3EDB2 /* GoogleASR.h */,
+				DA1BD61E1358351300F3EDB2 /* GoogleASR.m */,
+				DA1BD6231358355100F3EDB2 /* GoogleTranslate.h */,
+				DA1BD6241358355100F3EDB2 /* GoogleTranslate.m */,
+				DA1BD6261358356200F3EDB2 /* MicrosoftTTS.h */,
+				DA1BD6271358356200F3EDB2 /* MicrosoftTTS.m */,
 				DAEABE3713570C2E0027D0D7 /* MainMenu.xib */,
 				DAEABE2913570C2E0027D0D7 /* Supporting Files */,
 			);
@@ -93,13 +196,24 @@
 		DAEABE2913570C2E0027D0D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DAEABE471357251B0027D0D7 /* ffmpeg */,
 				DAEABE2A13570C2E0027D0D7 /* Speech Translator-Info.plist */,
-				DAEABE2B13570C2E0027D0D7 /* InfoPlist.strings */,
+				DA1BD64B135852E300F3EDB2 /* icon.icns */,
 				DAEABE2E13570C2E0027D0D7 /* Speech Translator-Prefix.pch */,
 				DAEABE2F13570C2E0027D0D7 /* main.m */,
 				DAEABE3113570C2E0027D0D7 /* Credits.rtf */,
+				DA1BD64D135853ED00F3EDB2 /* InfoPlist.strings */,
+				DA1BD6081358294400F3EDB2 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAEABE471357251B0027D0D7 /* ffmpeg */ = {
+			isa = PBXGroup;
+			children = (
+				DAEABE48135725250027D0D7 /* ffmpeg */,
+			);
+			name = ffmpeg;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +226,7 @@
 				DAEABE1A13570C2E0027D0D7 /* Sources */,
 				DAEABE1B13570C2E0027D0D7 /* Frameworks */,
 				DAEABE1C13570C2E0027D0D7 /* Resources */,
+				DADA979D1357385B007E5F59 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -149,9 +264,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAEABE2D13570C2E0027D0D7 /* InfoPlist.strings in Resources */,
 				DAEABE3313570C2E0027D0D7 /* Credits.rtf in Resources */,
 				DAEABE3913570C2E0027D0D7 /* MainMenu.xib in Resources */,
+				DAEABE49135725250027D0D7 /* ffmpeg in Resources */,
+				DA1BD6091358294400F3EDB2 /* Localizable.strings in Resources */,
+				DA1BD64C135852E300F3EDB2 /* icon.icns in Resources */,
+				DA1BD64E135853ED00F3EDB2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,20 +282,23 @@
 			files = (
 				DAEABE3013570C2E0027D0D7 /* main.m in Sources */,
 				DAEABE3613570C2E0027D0D7 /* Speech_TranslatorAppDelegate.m in Sources */,
+				DA1BD61F1358351300F3EDB2 /* GoogleASR.m in Sources */,
+				DA1BD6251358355200F3EDB2 /* GoogleTranslate.m in Sources */,
+				DA1BD6281358356200F3EDB2 /* MicrosoftTTS.m in Sources */,
+				DA1BD6301358369E00F3EDB2 /* GTMNSString+HTML.m in Sources */,
+				DA1BD6311358369E00F3EDB2 /* GDataHTTPFetcher.m in Sources */,
+				DA1BD63F135836AB00F3EDB2 /* NSObject+SBJSON.m in Sources */,
+				DA1BD640135836AB00F3EDB2 /* NSString+SBJSON.m in Sources */,
+				DA1BD641135836AB00F3EDB2 /* SBJSON.m in Sources */,
+				DA1BD642135836AB00F3EDB2 /* SBJsonBase.m in Sources */,
+				DA1BD643135836AB00F3EDB2 /* SBJsonParser.m in Sources */,
+				DA1BD644135836AB00F3EDB2 /* SBJsonWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DAEABE2B13570C2E0027D0D7 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DAEABE2C13570C2E0027D0D7 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		DAEABE3113570C2E0027D0D7 /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -234,6 +355,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Speech Translator\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -250,6 +375,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Speech Translator\"",
+				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Speech Translator/Speech Translator-Prefix.pch";
@@ -278,6 +407,7 @@
 				DAEABE3E13570C2E0027D0D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

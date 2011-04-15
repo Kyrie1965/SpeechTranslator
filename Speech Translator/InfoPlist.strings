@@ -1,0 +1,3 @@
+CFBundleName = "Голосовой переводчик";
+CFBundleDisplayName = "Голосовой переводчик";
+NSHumanReadableCopyright = "Copyright © 2011 Юрий Юрьев";
